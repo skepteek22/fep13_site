@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>ФЕП-13</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-container">
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="./imgs/main-logo.png" alt="header logo">
+                    </a>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#about-us" class="header__link">Про нас</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#slider-with-us" class="header__link">Наші студенти</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#routine" class="header__link">Рутина навчання</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero-section">
+            <div class="wrapper">
+                <h1 class="hero-section__title">
+                    <div id="typed"></div>
+                </h1>
+
+                <div id="typed-strings">
+                    <span>Зустрічайте, школярі...</span>
+                    <span>Зустрічайте, студенти групи ФЕП-13!</span>
+                </div>
+                <p class="hero-section__subtitle">
+                    Наша група - спільнота інтелекту, творчості та взаємопідтримки. Разом ми здійснюємо свої найсміливіші ідеї та розвиваємося в навчанні та поза його межами.
+                </p>
+            </div>
+        </section>
+
+        <section class="about-us el" id="about-us">
+            <div class="wrapper">
+                <div class="about-us-container">
+                    <div class="abouts-us__info">
+                        <h1 class="about-us__title">
+                            Про <span>нас</span>
+                        </h1>
+                        <p>
+                            Група <span>ФЕП-13</span> — група талановитих та мотивованих індивідів, які присвячують свою
+                            студентську кар'єру вивченню та розвитку в області програмування та інженерії ПЗ.
+                        </p>
+                        <p>
+                            Наша група присвячена вивченню різноманітних технологій та інструментів розробки програмного
+                            забезпечення: від веб-розробки та мобільних додатків до штучного інтелекту та великих даних,
+                            — ми цікавимося всім, що пов'язано із сучасною ІТ-індустрією.
+                        </p>
+                        <p>
+                            Університетська програма надає нам не тільки теоретичні знання, але й практичні навички, які
+                            ми впроваджуємо в реальних проектах. Ми розвиваємо навички командної роботи, креативності та
+                            рішення проблем, що стає мостом від академічного світу до професійної кар'єри.
+                        </p>
+                    </div>
+                    <div class="about-us__photo">
+                        <img src="./imgs/photo-on-stairs.JPG" alt="our class">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-with-us el" id="slider-with-us">
+            <div class="wrapper">
+                <h1 class="slider-with-us__title title">
+                    Наші <span>студенти</span>
+                </h1>
+                <div class="swiper">
+
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./imgs/chernonkov.jpg" alt="chernonkov">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Черньонков Артем</h1>
+                                <p>«Хелоооу, родом з Кропивницького, у планах отримати оффер від IT-компанії, так як маю
+                                    достатній багаж знань у цій галузі. Треба якісь хобі, та? Ну тоді скажу що футбол,
+                                    музика, вирішення загадок, читання детективів та приготування смачної італійської їжі. Також хочу щасливе сімейне життя та якусь квартирку! <br>P.S. Зараз роблю сайт для своєї групи, думаю буде файно виглядати)»
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Шнайдер Олеся</h1>
+                                <p>«Привіт, я Олеся. Маю за мету стати хорошим спеціалістом в сфері IT. Я дуже щаслива
+                                    бути тут, знайомитись із неймовірними людьми, які підтримують мене у всьому і,
+                                    звичайно, набиратися знань, що допоможуть у майбутній пофесії. Окрім програмування,
+                                    у мене багато захоплень, таких як танці чи малювання. Мрію якомога більше
+                                    подорожувати»
+                                </p>
+                            </div>
+                            <img src="./imgs/shnayder.jpg" alt="shnayder">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/shapovalov.jpg" alt="shapovalov">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Шаповалов Олександр</h1>
+                                <p>«Звичайний хлопець із Первомайську Миколаївської області. Вступив у Львів з
+                                    ціллю
+                                    вивчитися на спеціальність, яка мене зацікавила, та знайти позитивних людей, які
+                                    підтримують мене та допоможуть. Глобальних мрій не маю, бажаю лише стати гарним
+                                    спеціалістом в улюбленій сфері та працювати на благо людей»
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Коваль Стас</h1>
+                                <p>«Привіт, таккк, цілі: стати одним з найкращих в своїй сфері (сферу ще не обрав
+                                    ххахахахахах) <br>
+                                    Мрія: великий будинок, теплі сімейні вечори під мирним небом
+                                    люблю різного роду мистецтво: музика, фільми, література»
+                                </p>
+                            </div>
+                            <img src="./imgs/koval.jpg" alt="koval">
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Дідик Дарія</h1>
+                                <p>«Привіт! Я Даша і мрію реалізуватися як успішний фахівець в сфері ІТ. Я рада
+                                    навчатися і здобувати знання саме тут, разом з моїми одногрупниками. Також маю такі
+                                    хобі, як танці, фотозйомка і приготування їжі. Маю намір розвиватися і втілювати
+                                    свої мрії в реальність якнайшвидше»
+                                </p>
+                            </div>
+                            <img src="./imgs/didyk.jpg" alt="Didyk">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/kovtun.jpg" alt="kovtun">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Ковтун Олег</h1>
+                                <p>«Моя мета — поєднати кращі практики інженерної розробки з вишуканістю та увагою до
+                                    деталей у світі детейлінгу. Мої навички програмування та підходу до роботи з
+                                    клієнтами допомагають створювати унікальні технологічні рішення для покращення
+                                    відділу обслуговування в сфері автомобільного догляду»
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Горковчук Володимир</h1>
+                                <p>«Я студент Львівського національного університету імені Івана Франка, навчаюсь на
+                                    спеціальності Інженерія програмного забезпечення. Маю навички у програмуванні на
+                                    мові C та C++, є досвід роботи над проектами, прагну знайти високоякісну
+                                    роботу в ІТ-галузі після завершення навчання»
+                                </p>
+                            </div>
+                            <img src="./imgs/gorkovchuk.jpg" alt="gorkovchuk">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/leskiv.jpg" alt="leskiv">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Леськів Максим</h1>
+                                <p>«Мрія - відвідати США,
+                                    Цілі - bmw m5,
+                                    Інформація - цікавлюсь програмуванням, подобаються автомобілі»
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Стецик Олег</h1>
+                                <p>«А, ну і коротка інфа для сайту групи: вмію писати сайти на HTML, CSS і трішки JS.
+                                    Люблю грати в комп'ютерні ігри.
+                                    Ціль - стати веб девелопером»
+                                </p>
+                            </div>
+                            <img src="./imgs/stecyk.jpg" alt="stecyk">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/novodvorskiy.jpg" alt="novodvorskiy">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Новодворський Роман</h1>
+                                <p>«Я з міста Острог у Рівненській області. Вступив сюди, тому що
+                                    вважаю, що саме тут отримаю потрібні знання. Цілей на життя не маю, хочу лише класно
+                                    його провести з приємними мені людьми. З хобі можу виділити гру на гітарі, Dnd та
+                                    читання (особливо Г. Ф. Лавкрафта)»
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Припотнюк Владислав</h1>
+                                <p>«Люблю вирішувати різні проблеми, але ще більше люблю знаходити їх, тому в майбутному
+                                    прагну стати програмістом)»
+                                </p>
+                            </div>
+                            <img src="./imgs/prypotniuk.jpg" alt="prypotniuk">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./imgs/bushko.jpg" alt="bushko">
+                            <div class="swiper-slide__info">
+                                <h1 class="info__title">Бушко Євген</h1>
+                                <p>«Народився та виріс у львівській області у селі Неслухів.
+                                    Навчаюсь у національному університеті імені Івана Франка на спеціальності інженерія
+                                    програмного забезпечення.
+                                    Моя ціль - закінчити університет та працювати по спеціальності.
+                                    Моє хобі це ремонт автомобілів. Також мені подобаються такі види спорту як мотокрос,
+                                    лижі та важка атлетика»
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="routine el" id="routine">
+            <div class="wrapper">
+                <h1 class="routine__title">Рутина <span>навчання</span></h1>
+                <div class="routine-info">
+                    <div class="routine-info__photo">
+                        <img src="./imgs/routine.jpg" alt="our routine">
+                    </div>
+                    <div class="routine-info__text">Щоденна рутина студента інженерії програмного забезпечення насичена
+                        вивченням теорії, включаючи мови програмування (Java, Python, C++), алгоритми та структури
+                        даних. Практичні аспекти включають участь у проектах і лабораторних роботах, де ми застосовуємо
+                        теоретичні знання на практиці. Щоб залишатися в тренді, активно слідкуємо за новинами технологій
+                        і
+                        беремо участь у конференціях. Робота в команді над проектами розвиває наші комунікативні та
+                        управлінські навички. Загалом, ця рутина допомагає нам формувати глибоке розуміння сфери
+                        програмного забезпечення.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-wrap">
+            <a href="/">
+                <div class="footer__logo">
+                    <img src="./imgs/footer-img.png" alt="footer img">
+                </div>
+            </a>
+            <div class="footer__menu">
+                <h1 class="footer-menu__title">Навігація</h1>
+                <nav class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer-list__item">
+                            <a href="#about-us" class="footer-list__link">Про нас</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#slider-with-us" class="footer-list__link">Наші студенти</a>
+                        </li>
+                        <li class="footer-list__item">
+                            <a href="#routine" class="footer-list__link">Рутина навчання</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__contacts">
+                <h1 class="footer-contacts__title">Ви можете побачити нас тут</h1>
+                <div class="footer-contacts__menu">
+                    <nav class="footer-contacts__navigation">
+                        <ul class="footer-contacts__list">
+                            <li class="footer-list__item">
+                                <img src="./svg/school-line.svg" alt="school">
+                                <a href="https://lnu.edu.ua" class="footer-list__link cc">Сайт університету</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <img src="./svg/computer-line.svg" alt="faculty">
+                                <a href="https://electronics.lnu.edu.ua" class="footer-list__link cc">Сайт
+                                    факультету</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <img src="./svg/tiktok-line.svg" alt="tiktok">
+                                <a href="https://www.tiktok.com/@electronics_lnu" class="footer-list__link cc">Tik-Tok факультету</a>
+                            </li>
+                            <li class="footer-list__item">
+                                <img src="./svg/instagram-line.svg" alt="instagram">
+                                <a href="https://www.instagram.com/electronics_lnu/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+                                    class="footer-list__link cc">Інстаграм факультету</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/type.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
