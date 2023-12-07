@@ -390,8 +390,12 @@ body {
     display: flex;
 }
 
-.swiper-slide:last-child p{
+.swiper-slide:nth-child(13) p{
     padding-left: 50px;
+}
+
+.swiper-slide:last-child p{
+    padding-right: 15px;
 }
 
 .swiper-slide img {
