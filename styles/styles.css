@@ -390,6 +390,10 @@ body {
     display: flex;
 }
 
+.swiper-slide:last-child p{
+    padding-left: 50px;
+}
+
 .swiper-slide img {
     max-width: 100%;
     height: 100%;
