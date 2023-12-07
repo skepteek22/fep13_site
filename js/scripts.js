@@ -41,5 +41,10 @@ for (let elm of elements) {
   observer.observe(elm);
 }
 
+window.onload = function() {
+  window.scrollTo(0, 0);
+  
+}
+
 
 
